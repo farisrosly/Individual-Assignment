@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+
+    width: 160px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+
+}
+
+.banner-text{
+
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 100px;
+}
+
+.banner-text h1{
+
+    font-size: 100px;
+    padding: 3%;
+}
+
+.banner-text h2{
+    padding: 3%;
+    font-size: 25px;
+}
+
+.banner-text p{
+    margin: 0% 20%;
+font-size: 20px;
+font-style: italic;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+}
+
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-btn a span{
+
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn a:hover span{
+    width: 100%;
+}
+
+.form-text h2{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+div.form-text {
+    color: antiquewhite;
+    padding: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+section {
+    
+  
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+footer {
+    background-color: #0b6e6e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(1, 80, 73);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b45050;
+}
+
+div.a {
+    line-height: 110%;
+  }
+
+#us{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.us-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: large;
+    text-align: center;
+}
+
+.title-text h1{
+
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 20px;
+    font-size: 300%;
+}
+
+.title-text p{
+
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 20px;
+    font-size: 130%;
+}
+
