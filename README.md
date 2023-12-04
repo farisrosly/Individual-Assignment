@@ -12,7 +12,7 @@ Welcome to the RM 1 Campaign, a meaningful initiative organized by the IIUM Endo
 
 ## Usage
 
-1. **Access the Webpage:** Open the `index.html` file in your web browser.
+1. **Access the Webpage:** Open the `Assignment.html` file in your web browser.
 2. **Campaign Details:** Read about the campaign in the banner section to understand its mission.
 3. **Contribute:** Fill out the Monthly Salary Deduction Form in the designated section.
 4. **Submission:** Click the "Submit" button to complete the form and contribute to the campaign.
